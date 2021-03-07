@@ -35,7 +35,7 @@ client.on('message', async message => {
 	const commandName = args.shift().toLowerCase();
 	const command = client.commands.get(commandName);
 
-	if (message.author.bot) return;
+//	if (message.author.bot) return;
 	if (!message.content.startsWith(prefix)) return;
 
 	try {
